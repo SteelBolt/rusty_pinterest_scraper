@@ -1,4 +1,4 @@
-# Rusty Pinterest Scraper
+# Rusty Pinterest Scraper 🦀
 
 A Pinterest scraper built with Rust.
 
