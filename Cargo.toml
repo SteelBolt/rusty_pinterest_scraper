@@ -1,0 +1,19 @@
+[package]
+name = "Rusty_Pinterest_Scrapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+thirtyfour = "0.31.0"
+reqwest = "0.11"
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+urlencoding = "2.1"
+sanitize-filename = "0.4"
+clap = { version = "3.1", features = ["derive"] }
+crossterm = "0.25"
+regex = "1.5"
+indicatif = "0.16.2"
